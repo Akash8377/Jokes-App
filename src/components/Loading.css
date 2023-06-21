@@ -1,0 +1,19 @@
+@keyframes loading {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(3000deg);
+    }
+}
+
+/* The element to apply the animation to */
+.loadingPic {
+    animation-name: loading;
+    animation-duration: 20s;
+}
+
+.test{
+    color: rgb(195, 195, 195);
+}
